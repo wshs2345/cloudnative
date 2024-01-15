@@ -1,0 +1,1 @@
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:61bd02ca85161b01ebc7e073b29d0adab98d1bde533e46f3b32a8ba43df55a2e
