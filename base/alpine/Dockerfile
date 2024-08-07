@@ -6,7 +6,7 @@ MAINTAINER shusen wang
 
 # 定制镜像
 USER root
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
+# RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
 RUN apk update \
     && apk add --no-cache --update elinks vim nano bash net-tools \
     conntrack-tools coreutils curl wget drill iperf3 iproute2 \
